@@ -1,0 +1,18 @@
+$mainColor: #6a92fe;
+$hoverColor: #2e313b;
+$quickColor:#3D71FF;
+$bgColor: #D3DFFF;
+
+@mixin mainTitle{
+    font-family : 'Noto San KR';
+    color : black;
+    font-weight:600;
+    font-size: 56px;
+}
+
+#mainTitle{
+    h2{
+        @include mainTitle;
+    }
+}
+
